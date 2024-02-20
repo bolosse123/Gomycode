@@ -1,3 +1,0 @@
-# Gomycode
-# Gomycode
-# Gomycode
