@@ -1,0 +1,186 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box; 
+    background-color:;
+  
+}
+
+/* Ma barre de navigation */
+.logo{
+  font-size: 2rem;
+  color: black;
+  font-weight: bolder;
+}
+ .nav{
+    height: 12vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+     background-color: bisque;
+}
+.nav ul li{
+  list-style-type: none;
+  display: inline;
+}
+.nav ul li a{
+  text-decoration: none;
+  padding: 0 20px;
+  color: black;
+  font-weight: bold;
+}
+.nav ul li a:hover{
+  color: whitesmoke;
+}
+/* la photo  disposé plus  le texte */
+.img{
+  background-color:black;
+  max-width: 100%;
+  width: 1200vw;
+  position: relative;
+  margin: auto;
+  height: 470px;
+}
+.img img{
+  position: absolute;
+  left: 58%;
+  width: 24%;
+}
+.img h3{
+  font-size:2.4rem;
+  text-transform:uppercase;
+  position: absolute;
+  left: 5%;
+  top: 25%;
+  color:white;
+  font-family:'Courier New', Courier, monospace;
+}
+
+/* mes span et mes paragraphes  mes h2*/
+span{
+  color: bisque;
+  font-weight: bold;
+}
+p{
+    color: whitesmoke;
+    font-weight: 900;
+    
+}
+h2{
+  font-size: 2rem;
+  color: bisque;
+  font-weight: bolder;
+  text-align: center;
+  
+}
+
+/* Ma section a propos */
+
+.propos {
+  background-color: black;
+  max-width: 100%;
+  width: 1200vw;
+  position: relative;
+  margin: auto;
+  height: 470px;
+}
+.propos img{
+  position: absolute;
+  left: 8%;
+  width: 23%;
+}
+.propos .txt{
+  font-size: 1.3rem;
+  text-transform:uppercase;
+  position: absolute;
+  top: 35%;
+  margin-left:40% ;
+  color:white;
+  font-family:'Courier New', Courier, monospace;
+}
+
+/* Ma section mon travail */
+.travail{
+  background-color: black;
+  max-width: 100%;
+  width: 1200vw;
+  position: relative;
+  margin: auto;
+  height: 700px;
+  text-align: center;
+}
+.travail img{
+  width: 50%;
+  height: 94%;
+}
+/* .travail .pict img{
+} */
+
+/* Ma section Cv */
+.cv{
+  background-color: black;
+  max-width: 100%;
+  width: 1200vw;
+  position: relative;
+  margin: auto;
+  height: 800px;
+  text-align: center;
+}
+.cv img{
+  width: 50%;
+  height: 94%;
+  border-radius: 20px auto red;
+}
+
+/* Ma section contact */
+
+.contact{
+  background-color: black;
+  max-width: 100%;
+  width: 1200vw;
+  position: relative;
+  margin: auto;
+  height: 490px;
+  text-align:center;
+}
+
+.contact-form form{
+  position: relative;
+} 
+
+.contact-form form input,
+form textarea{
+  width: 50%;
+  padding: 10px;
+  border: none;
+  background:;
+  font-size: 1.1rem;
+  margin-bottom: 0.7rem;
+}
+.contact-form .btn{
+  font-weight: bolder;
+  text-transform: uppercase;
+}
+.btn{
+  color: black;
+  background-color: bisque;
+}
+/* Ma section pied de page */
+
+footer{
+  background-color: rgb(34, 34, 34);
+  width: 100%;
+  height: 70px;
+  text-align: center;
+}
+.foot h3{
+  color: red;
+  font-size: 1.2rem;
+}
+.foot-bott p{
+  text-transform: uppercase;
+  font-weight: 800;
+  color:red;
+  margin-left: %;
+}
